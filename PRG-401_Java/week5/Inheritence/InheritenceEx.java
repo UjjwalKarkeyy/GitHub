@@ -53,7 +53,7 @@ class Dog extends Animal{
     }
 
     // Use the parent function, but change it's functionality (Method Overloading)
-    @Override
+    @Override // Polymorphism
     void eat(){
         System.out.println("Dog eat");
     }

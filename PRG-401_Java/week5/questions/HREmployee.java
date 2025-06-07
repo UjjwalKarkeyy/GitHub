@@ -16,3 +16,4 @@ public class HREmployee {
         System.out.println("Salary is: " + e1.getSalary());
     }
 }
+

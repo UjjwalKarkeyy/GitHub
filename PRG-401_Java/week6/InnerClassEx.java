@@ -12,5 +12,7 @@ public class InnerClassEx {
     public static void main(String[] args) {
         OuterClass outer = new OuterClass();
         OuterClass.InnerClass inner = outer.new InnerClass();
+        outer.x = 3;
+        inner.y = 2;
     }
 }
